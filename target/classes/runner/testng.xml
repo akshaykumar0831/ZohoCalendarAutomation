@@ -1,0 +1,26 @@
+<suite name="zephyr application Test automation suite" verbose="2">
+    <listeners>
+        <listener class-name="com.zephyr.framework.Utils.Listener"/>
+        <listener class-name="com.zephyr.framework.extentReportListener.ExtentReportListener"/>
+    </listeners>
+
+    <test name="zephyr Testcases - Suite 1">
+        <classes>
+            <class name="com.zephyr.testcases.Verify_Creating_NewEvent"/>
+            <class name="com.zephyr.testcases.Verify_Searching_CreatedEvent"/>
+            <class name="com.zephyr.testcases.Verify_UpdatingEvent_NewDate"/>
+            <class name="com.zephyr.testcases.Verify_DeleteEvent"/>
+            <class name="com.zephyr.testcases.Verify_ProfileUpdate"/>
+        </classes>
+    </test>
+
+    <test name="zephyr Testcases - Suite 2">
+        <classes>
+            <class name="com.zephyr.testcases.Verify_OpeningZohomail"/>
+            <class name="com.zephyr.testcases.Verify_calender_View_Options"/>
+            <class name="com.zephyr.testcases.Verify_CalenderTimeZone_Update"/>
+            <class name="com.zephyr.testcases.Verify_Sending_feedback"/>
+            <class name="com.zephyr.testcases.Verify_ProfilePage_remoteWork_webView"/>
+        </classes>
+    </test>
+</suite>
