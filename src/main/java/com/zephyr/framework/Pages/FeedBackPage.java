@@ -51,7 +51,6 @@ public class FeedBackPage extends TestBase {
         TestUtils.sendKeys(description_feedback, prop.getProperty("description_feedback"));
         TestUtils.waitForSpecificTime();
         chooseButton_feedback.sendKeys(imageFile_TobeUploaded.getAbsolutePath());
-        Thread.sleep(5000);
         TestUtils.clickElement(sendButton_feedback);
         TestUtils.explicitWait_VisibilityOfElement(Feedback_submit_successfulMessage);
         Assert.assertEquals(Feedback_submit_successfulMessage.getText(),"Thank you for sending us your feedback");

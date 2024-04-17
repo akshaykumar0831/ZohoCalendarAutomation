@@ -98,11 +98,9 @@ public class NewEventPage extends TestBase {
 
     public void fillTheDetails_ToCreateAnewEvent() throws Exception {
         TestUtils.sendKeys(Event_Title,prop.getProperty("EventTitle"));
-        Thread.sleep(5000);
         TestUtils.clickElement(Event_StartDate);
         TestUtils.selectDate(Event_StartDate,1);
         TestUtils.clickElement(Event_StartTime);
-        Thread.sleep(5000);
         /*for(WebElement element:Event_StartTime_All_TimeOptions)
         {
             if (element.getText().equalsIgnoreCase("06:00 pm"))
@@ -114,7 +112,6 @@ public class NewEventPage extends TestBase {
         TestUtils.clickElement(Event_EndDate);
         TestUtils.selectDate(Event_EndDate,1);
         TestUtils.clickElement(Event_endTime);
-        Thread.sleep(5000);
         /*for(WebElement element:Event_StartTime_All_TimeOptions)
         {
             if (element.getText().equalsIgnoreCase("07:00 pm"))
@@ -135,14 +132,11 @@ public class NewEventPage extends TestBase {
         //TestUtils.clickElement(zohoMeeting_add_Conference);
         TestUtils.waitForSpecificTime();
        // TestUtils.clickElement(selectAudio_add_Conference);
-        Thread.sleep(5000);
         TestUtils.sendKeys(enter_Url, prop.getProperty("MeetingUrl"));
         TestUtils.scrollToBottom();
         TestUtils.explicitWait_waitTillElementIsClickable(enter_description);
         TestUtils.sendKeys(enter_description, prop.getProperty("description"));
-        Thread.sleep(5000);
         TestUtils.clickElement(save_button);
-        Thread.sleep(5000);
         if(attendeeOption_Radi0Button.isSelected())
         {
             TestUtils.clickElement(ConfirmButton_Submit);
@@ -155,7 +149,6 @@ public class NewEventPage extends TestBase {
     }
 
     public void isEventDisplayed(String createdEvent) throws InterruptedException {
-        Thread.sleep(5000);
         for (WebElement event : ListOf_AllEvents) {
             if (event.getText().equalsIgnoreCase(createdEvent)) {
                 System.out.println("It is displayed" + event.isDisplayed());
@@ -167,7 +160,6 @@ public class NewEventPage extends TestBase {
     }
 
     public void isEventDisplayed_afterSearch(String createdEvent) throws InterruptedException {
-        Thread.sleep(5000);
        Assert.assertTrue(TestUtils.isElementClickable_NoException(driver.findElement(By.xpath("(//span[contains(text(),'" + createdEvent + "')])[1]"))));
     }
 
@@ -181,7 +173,6 @@ public class NewEventPage extends TestBase {
                 break;
             }
         }
-        Thread.sleep(10000);
     }
     public void update_ExistingEvent(String newEvent) throws InterruptedException {
         TestUtils.clickElement(Event_Title);
@@ -212,15 +203,12 @@ public class NewEventPage extends TestBase {
         }*/
         TestUtils.clickElement(Event_StartTime_All_TimeOptions.get(1));
         TestUtils.clickElement(save_button);
-        Thread.sleep(5000);
 
     }
     public void delete_Event() throws InterruptedException {
         TestUtils.clickElement(delete_Event_Button);
         TestUtils.clickElement(delete_confirm_Button);
-        Thread.sleep(5000);
         TestUtils.clickElement(ConfirmButton_Submit);
-        Thread.sleep(5000);
     }
     public void NoEventMessage_afterDeletion() throws InterruptedException {
         Assert.assertTrue(NoEvent_Message_AfterEventDelete.isDisplayed());

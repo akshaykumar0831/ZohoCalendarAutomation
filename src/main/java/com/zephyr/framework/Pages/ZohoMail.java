@@ -27,8 +27,7 @@ public class ZohoMail extends TestBase {
         for (String windowHandle : windowHandles) {
             driver.switchTo().window(windowHandle);
         }
-        Thread.sleep(5000);
-        String expectedUrl = "https://mail.zoho.in/zm/#mail/folder/inbox"; // Change this to the expected URL
+        String expectedUrl = "https://mail.zoho.com/zm/"; // Change this to the expected URL
         String currentUrl = driver.getCurrentUrl();
 
         System.out.println("expectedUrl : " +expectedUrl );

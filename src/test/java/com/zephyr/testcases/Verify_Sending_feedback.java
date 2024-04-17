@@ -27,7 +27,6 @@ public class Verify_Sending_feedback extends TestBase {
         feedBackPage=new FeedBackPage();
         loginPage.clickOn_SignIn_HomePage();
         loginPage.Enter_UserName_Password();
-        Thread.sleep(5000);
         calenderPage.clickOn_feedback_Calender();
 
     }

@@ -48,7 +48,7 @@ public class CalenderPage extends TestBase {
     @FindBy(xpath="//*[@data-tooltip='My Profile']")
     WebElement profile_calender;
 
-    @FindBy(xpath="//*[@href='//accounts.zoho.in']")
+    @FindBy(xpath="//*[@href='//accounts.zoho.com']")
     WebElement MyAccount_calender;
 
     @FindBy(xpath="//*[@data-testid='ZiconComponent']")
@@ -89,6 +89,9 @@ public class CalenderPage extends TestBase {
 
     public void clickOn_CreatedEvent_Calender(String option) throws InterruptedException {
         driver.findElement(By.xpath("//*[@class='zcl_bld6 zcl_txbrk'][contains(text(),'" + option + "')]")).click();
+//        driver.findElement(By.xpath("//input[@class='zmSearchTB js-searchbox' and (@type='text')]")).sendKeys(option);
+//        driver.findElement(By.xpath("//input[@class='zmSearchTB js-searchbox' and (@type='text')]")).sendKeys(Keys.ENTER);
+//        driver.findElement(By.xpath("//input[@class='zmSearchTB js-searchbox' and (@type='text')]")).sendKeys(Keys.ENTER);
     }
 
     public void edit_ExistingEvent_Calender() throws InterruptedException {
@@ -124,7 +127,6 @@ public class CalenderPage extends TestBase {
         actions.moveToElement(element).click().build().perform();
     }
     public void validate_days_fromCalender(String option) throws Exception {
-        Thread.sleep(5000);
         int n=1;
         while (n <= 3) {
             TestUtils.explicitWait_waitTillElementIsClickable(NewEvent_Button);

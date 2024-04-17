@@ -31,7 +31,6 @@ public class Verify_ProfilePage_remoteWork_webView  extends TestBase {
         profilePage=new ProfilePage();
         loginPage.clickOn_SignIn_HomePage();
         loginPage.Enter_UserName_Password();
-        Thread.sleep(5000);
         calenderPage.clickOn_Profile_Calender();
 
     }

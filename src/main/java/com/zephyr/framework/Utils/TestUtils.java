@@ -115,7 +115,6 @@ public class TestUtils extends TestBase {
 
     public static void sendKeys(WebElement webElement, String keys) {
         try {
-            //    Thread.sleep(5000);
             WebDriverWait webDriverWait = new WebDriverWait(driver,Duration.ofSeconds(30));
             webDriverWait.until(ExpectedConditions.visibilityOf(webElement));
             webDriverWait.until(ExpectedConditions.elementToBeClickable(webElement));

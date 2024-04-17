@@ -93,7 +93,6 @@ public class ProfilePage extends TestBase {
     }
     public void checkIf_ProfileUpdated() throws InterruptedException {
         TestUtils.waitForSpecificTime();
-        Thread.sleep(5000);
         String updatedFullName = updatedProfile_Editprofile.getText().trim();
         String expectedFullName = prop.getProperty("firstName") +" "+ prop.getProperty("lastname");
         System.out.println("updated name" +updatedFullName );
@@ -115,7 +114,6 @@ public class ProfilePage extends TestBase {
         for (int i = 0; i < webpages_Profile.size(); i++) {
 
             TestUtils.clickElement(webpages_Profile.get(i));
-            Thread.sleep(5000);
             // Switch to the new tab
             ArrayList<String> tabs = new ArrayList<>(driver.getWindowHandles());
             for (String tab : tabs) {

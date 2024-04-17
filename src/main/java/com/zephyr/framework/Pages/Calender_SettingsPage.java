@@ -115,11 +115,9 @@ public class Calender_SettingsPage extends TestBase {
         WebElement timeZoneOption = driver.findElement(By.xpath("//*[@rel='" + abbreviation + "']"));
         TestUtils.explicitWait_waitTillElementIsClickable(timeZoneOption);
         timeZoneOption.click();
-        Thread.sleep(5000);
 
         TestUtils.clickElement(Done_Button_calender);
         TestUtils.explicitWait_VisibilityOfElement(newTimezone_calender);
-        Thread.sleep(5000);
         System.out.println("new timezone visible after selection : " + newTimezone_calender.getText());
         System.out.println("new timezone from config selection   : " + newTimezone);
 
