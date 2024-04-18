@@ -38,20 +38,25 @@ Zoho Login Credentials:
 Signup for the zoho calendar application: https://www.zoho.com/calendar/
 
 After logging in, click on the menu icon on the top right corner and click on "Mail" in the WORKSPACE APPS.
-Create a Zoho mailId and enter the login credentials i.e., username and password and the mailId in the config.properties file 
-
-Run Tests:
-Navigate to the src/test/java directory.
-Open the TestNG XML file (testng.xml, testng2.xml) in IntelliJ IDEA.
-Right-click on the file and select "Run 'testng.xml/testng2.xml'" to execute the test suite.
+Create a Zoho mailId and enter the login credentials i.e., username and password and the mailId in the config.properties file.
 
 Project Structure
-The project follows a standard Maven project structure:
 
+The project follows a standard Maven project structure:
 src/main/java: Contains the implementation of the framework, including page objects, utilities, and configuration files.
 src/test/java: Contains test classes where actual test scripts are written.
 testng.xml: TestNG suite XML file specifying the test execution order and configurations.
 
 ## Test Execution
 TestNG is configured to execute the tests defined in the test classes. Test results are generated in HTML format using Extent Report Listener and can be found in the test-output directory. WebDriver Listeners capture and log WebDriver events, while Log4j is utilized for saving and managing detailed test execution logs.
+
+Run Tests:
+Navigate to the src/test/java directory.
+Open the TestNG XML file (testng.xml, testng2.xml) in IntelliJ IDEA.
+Right-click on the file and select "Run 'testng.xml/testng2.xml'" to execute the test suite.
+
+View Extent Report:
+Click on the ZephyrTestResults.html under test-output directory and open with chrome browser.
+
+Test logs: It can be found in the test.log file under the project (Zephyr) directory.
 
