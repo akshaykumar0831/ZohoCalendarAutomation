@@ -34,6 +34,12 @@ Configure WebDriver:
 Download the appropriate WebDriver executable for your browser (e.g., ChromeDriver).
 Place the WebDriver executable in a directory included in your system's PATH environment variable.
 
+Zoho Login Credentials:
+Signup for the zoho calendar application: https://www.zoho.com/calendar/
+
+After logging in, click on the menu icon on the top right corner and click on "Mail" in the WORKSPACE APPS.
+Create a Zoho mailId and enter the login credentials i.e., username and password and the mailId in the config.properties file 
+
 Run Tests:
 Navigate to the src/test/java directory.
 Open the TestNG XML file (testng.xml, testng2.xml) in IntelliJ IDEA.
