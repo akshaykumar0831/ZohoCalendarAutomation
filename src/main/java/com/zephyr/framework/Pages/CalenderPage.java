@@ -84,14 +84,10 @@ public class CalenderPage extends TestBase {
         TestUtils.clickElement(Calender_search);
         TestUtils.sendKeys(Calender_search,event);
         Calender_search.sendKeys(Keys.ENTER);
-
     }
 
     public void clickOn_CreatedEvent_Calender(String option) throws InterruptedException {
         driver.findElement(By.xpath("//*[@class='zcl_bld6 zcl_txbrk'][contains(text(),'" + option + "')]")).click();
-//        driver.findElement(By.xpath("//input[@class='zmSearchTB js-searchbox' and (@type='text')]")).sendKeys(option);
-//        driver.findElement(By.xpath("//input[@class='zmSearchTB js-searchbox' and (@type='text')]")).sendKeys(Keys.ENTER);
-//        driver.findElement(By.xpath("//input[@class='zmSearchTB js-searchbox' and (@type='text')]")).sendKeys(Keys.ENTER);
     }
 
     public void edit_ExistingEvent_Calender() throws InterruptedException {

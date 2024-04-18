@@ -18,7 +18,7 @@ To set up the project locally, follow these steps:
 
 Clone the Repository:
 bash
-git clone https://github.com/yourusername/your-repository.git
+git clone https://github.com/akshaykumar0831/ZohoCalendarAutomation.git
 
 Import Project into IntelliJ IDEA:
 Open IntelliJ IDEA.
@@ -36,8 +36,8 @@ Place the WebDriver executable in a directory included in your system's PATH env
 
 Run Tests:
 Navigate to the src/test/java directory.
-Open the TestNG XML file (testng.xml) in IntelliJ IDEA.
-Right-click on the file and select "Run 'testng.xml'" to execute the test suite.
+Open the TestNG XML file (testng.xml, testng2.xml) in IntelliJ IDEA.
+Right-click on the file and select "Run 'testng.xml/testng2.xml'" to execute the test suite.
 
 Project Structure
 The project follows a standard Maven project structure:

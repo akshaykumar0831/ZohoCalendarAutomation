@@ -929,3 +929,172 @@ Session ID: 9a21d8df3d04aaa0f44e47efb08f4032
 2024-04-17 01:23:03 DEBUG TestBase:68 - Clicking on Next
 2024-04-17 01:23:04 DEBUG TestBase:68 - Clicking on Sign in
 2024-04-17 01:23:09 DEBUG TestBase:68 - Clicking on 
+2024-04-17 10:17:19 INFO  TestBase:126 - URL launched
+2024-04-17 10:17:20 DEBUG TestBase:68 - Clicking on SIGN IN
+2024-04-17 10:17:22 DEBUG TestBase:68 - Clicking on Next
+2024-04-17 10:17:23 DEBUG TestBase:68 - Clicking on Sign in
+2024-04-17 10:17:32 DEBUG TestBase:68 - Clicking on 
+2024-04-17 10:17:33 ERROR TestBase:127 - org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=123.0.6312.107)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [30f4dba93378033cede5b30057c5755d, sendKeysToElement {value=[Ljava.lang.CharSequence;@36fcf6c0, id=f.F8737ECA0A2265022054CFDF64719A1E.d.56BA84F9F4BEB26A733FD47CA85A1B26.e.153}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.107, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\SANJAY\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57033}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57033/devtoo..., se:cdpVersion: 123.0.6312.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (30f4dba93378033cede5b30057c5755d)] -> xpath: //*[@placeholder='Search Events']]
+Session ID: 30f4dba93378033cede5b30057c5755d
+2024-04-17 10:19:16 INFO  TestBase:126 - URL launched
+2024-04-17 10:19:16 DEBUG TestBase:68 - Clicking on SIGN IN
+2024-04-17 10:19:19 DEBUG TestBase:68 - Clicking on Next
+2024-04-17 10:19:20 DEBUG TestBase:68 - Clicking on Sign in
+2024-04-17 10:19:31 DEBUG TestBase:68 - Clicking on 
+2024-04-17 10:19:33 DEBUG TestBase:68 - Clicking on 
+2024-04-17 10:19:34 DEBUG TestBase:68 - Clicking on Confirm
+2024-04-17 10:20:15 ERROR TestBase:72 - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[contains(text(),'Confirm')]' (tried for 30 second(s) with 500 milliseconds interval)
+2024-04-17 10:29:37 INFO  TestBase:126 - URL launched
+2024-04-17 10:29:37 DEBUG TestBase:68 - Clicking on SIGN IN
+2024-04-17 10:29:40 DEBUG TestBase:68 - Clicking on Next
+2024-04-17 10:29:41 DEBUG TestBase:68 - Clicking on Sign in
+2024-04-17 10:29:50 DEBUG TestBase:68 - Clicking on 
+2024-04-17 10:29:53 DEBUG TestBase:68 - Clicking on 
+2024-04-17 10:29:53 DEBUG TestBase:68 - Clicking on Confirm
+2024-04-17 10:30:35 ERROR TestBase:72 - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[contains(text(),'Confirm')]' (tried for 30 second(s) with 500 milliseconds interval)
+2024-04-17 10:35:53 INFO  TestBase:126 - URL launched
+2024-04-17 10:35:54 DEBUG TestBase:68 - Clicking on SIGN IN
+2024-04-17 10:35:56 DEBUG TestBase:68 - Clicking on Next
+2024-04-17 10:35:57 DEBUG TestBase:68 - Clicking on Sign in
+2024-04-17 10:36:38 ERROR TestBase:72 - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[@placeholder='Search Events']' (tried for 30 second(s) with 500 milliseconds interval)
+2024-04-17 12:11:41 INFO  TestBase:126 - URL launched
+2024-04-17 12:11:41 DEBUG TestBase:68 - Clicking on SIGN IN
+2024-04-17 12:11:43 DEBUG TestBase:68 - Clicking on Next
+2024-04-17 12:11:45 DEBUG TestBase:68 - Clicking on Sign in
+2024-04-17 12:11:50 DEBUG TestBase:68 - Clicking on 
+2024-04-17 12:12:21 ERROR TestBase:72 - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //span[contains(text(),'Time Zone')][@class='zmsettings-nav-action-primary-name']' (tried for 30 second(s) with 500 milliseconds interval)
+2024-04-17 12:40:56 INFO  TestBase:126 - URL launched
+2024-04-17 12:40:57 DEBUG TestBase:68 - Clicking on SIGN IN
+2024-04-17 12:40:59 DEBUG TestBase:68 - Clicking on Next
+2024-04-17 12:41:00 DEBUG TestBase:68 - Clicking on Sign in
+2024-04-17 12:41:05 DEBUG TestBase:68 - Clicking on 
+2024-04-17 12:41:06 DEBUG TestBase:68 - Clicking on Time Zone
+2024-04-17 12:41:38 ERROR TestBase:72 - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Decorated {[[ChromeDriver: chrome on windows (7fcf40b61b6b613d5cc1da33317d5c2d)] -> xpath: (//input[@type='checkbox'][@value='enable'])[2]]} (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: net.bytebuddy.renamed.java.lang.Object$ByteBuddy$sPGvQbyn
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.107, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\SANJAY\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62179}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62179/devtoo..., se:cdpVersion: 123.0.6312.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7fcf40b61b6b613d5cc1da33317d5c2d
+2024-04-17 12:46:33 INFO  TestBase:126 - URL launched
+2024-04-17 12:46:34 DEBUG TestBase:68 - Clicking on SIGN IN
+2024-04-17 12:46:36 DEBUG TestBase:68 - Clicking on Next
+2024-04-17 12:46:37 DEBUG TestBase:68 - Clicking on Sign in
+2024-04-17 12:46:44 DEBUG TestBase:68 - Clicking on 
+2024-04-17 12:46:46 DEBUG TestBase:68 - Clicking on Time Zone
+2024-04-17 12:46:47 DEBUG TestBase:68 - Clicking on Change secondary Time Zone
+2024-04-17 12:51:25 INFO  TestBase:126 - URL launched
+2024-04-17 12:51:26 DEBUG TestBase:68 - Clicking on SIGN IN
+2024-04-17 12:51:28 DEBUG TestBase:68 - Clicking on Next
+2024-04-17 12:51:29 DEBUG TestBase:68 - Clicking on Sign in
+2024-04-17 12:51:34 DEBUG TestBase:68 - Clicking on 
+2024-04-17 12:51:35 DEBUG TestBase:68 - Clicking on Time Zone
+2024-04-17 12:51:36 DEBUG TestBase:68 - Clicking on Change secondary Time Zone
+2024-04-17 12:55:08 INFO  TestBase:126 - URL launched
+2024-04-17 12:55:08 DEBUG TestBase:68 - Clicking on SIGN IN
+2024-04-17 12:55:10 DEBUG TestBase:68 - Clicking on Next
+2024-04-17 12:55:11 DEBUG TestBase:68 - Clicking on Sign in
+2024-04-17 12:55:21 DEBUG TestBase:68 - Clicking on 
+2024-04-17 12:55:22 DEBUG TestBase:68 - Clicking on Time Zone
+2024-04-17 12:55:23 DEBUG TestBase:68 - Clicking on Change secondary Time Zone
+2024-04-17 12:57:24 INFO  TestBase:126 - URL launched
+2024-04-17 12:57:25 DEBUG TestBase:68 - Clicking on SIGN IN
+2024-04-17 12:57:27 DEBUG TestBase:68 - Clicking on Next
+2024-04-17 12:57:27 DEBUG TestBase:68 - Clicking on Sign in
+2024-04-17 12:57:33 DEBUG TestBase:68 - Clicking on Week
+2024-04-17 12:57:39 INFO  TestBase:126 - URL launched
+2024-04-17 12:57:39 DEBUG TestBase:68 - Clicking on SIGN IN
+2024-04-17 12:57:41 DEBUG TestBase:68 - Clicking on Next
+2024-04-17 12:57:42 DEBUG TestBase:68 - Clicking on Sign in
+2024-04-17 12:57:48 DEBUG TestBase:68 - Clicking on Week
+2024-04-17 12:57:54 INFO  TestBase:126 - URL launched
+2024-04-17 12:57:54 DEBUG TestBase:68 - Clicking on SIGN IN
+2024-04-17 12:57:56 DEBUG TestBase:68 - Clicking on Next
+2024-04-17 12:57:57 DEBUG TestBase:68 - Clicking on Sign in
+2024-04-17 12:58:02 DEBUG TestBase:68 - Clicking on Week
+2024-04-17 12:59:35 INFO  TestBase:126 - URL launched
+2024-04-17 12:59:36 DEBUG TestBase:68 - Clicking on SIGN IN
+2024-04-17 12:59:38 DEBUG TestBase:68 - Clicking on Next
+2024-04-17 12:59:38 DEBUG TestBase:68 - Clicking on Sign in
+2024-04-17 17:09:56 INFO  TestBase:126 - URL launched
+2024-04-17 17:09:57 DEBUG TestBase:68 - Clicking on SIGN IN
+2024-04-17 17:09:58 DEBUG TestBase:68 - Clicking on Next
+2024-04-17 17:09:59 DEBUG TestBase:68 - Clicking on Sign in
+2024-04-17 17:10:03 DEBUG TestBase:68 - Clicking on 
+2024-04-17 17:11:04 ERROR TestBase:72 - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Decorated {[[ChromeDriver: chrome on windows (c26f7d7ea31f573797e2245c9a5f0f6b)] -> xpath: //*[@href='//accounts.zoho.com']]} (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: net.bytebuddy.renamed.java.lang.Object$ByteBuddy$2ztAh0Fc
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.123, chrome: {chromedriverVersion: 123.0.6312.122 (31f8248cdd9..., userDataDir: C:\Users\SANJAY\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50933}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50933/devtoo..., se:cdpVersion: 123.0.6312.123, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c26f7d7ea31f573797e2245c9a5f0f6b
+2024-04-17 18:13:52 INFO  TestBase:126 - URL launched
+2024-04-17 18:13:53 DEBUG TestBase:68 - Clicking on SIGN IN
+2024-04-17 18:13:55 DEBUG TestBase:68 - Clicking on Next
+2024-04-17 18:13:56 DEBUG TestBase:68 - Clicking on Sign in
+2024-04-17 18:14:01 DEBUG TestBase:68 - Clicking on New Event
+2024-04-17 18:14:02 DEBUG TestBase:68 - Clicking on 
+2024-04-17 18:14:03 DEBUG TestBase:68 - Clicking on 
+2024-04-17 18:14:05 DEBUG TestBase:68 - Clicking on 12:00 am
+2024-04-17 18:14:06 DEBUG TestBase:68 - Clicking on 
+2024-04-17 18:14:07 DEBUG TestBase:68 - Clicking on 
+2024-04-17 18:14:07 DEBUG TestBase:68 - Clicking on 07:30 pm
+2024-04-17 18:14:09 DEBUG TestBase:68 - Clicking on Add conference
+2024-04-17 18:14:12 DEBUG TestBase:68 - Clicking on Save
+2024-04-17 18:14:13 DEBUG TestBase:68 - Clicking on Confirm
+2024-04-17 18:14:19 INFO  TestBase:126 - URL launched
+2024-04-17 18:14:21 DEBUG TestBase:68 - Clicking on SIGN IN
+2024-04-17 18:14:23 DEBUG TestBase:68 - Clicking on Next
+2024-04-17 18:14:24 DEBUG TestBase:68 - Clicking on Sign in
+2024-04-17 18:14:30 DEBUG TestBase:68 - Clicking on 
+2024-04-17 18:14:35 INFO  TestBase:126 - URL launched
+2024-04-17 18:14:58 DEBUG TestBase:68 - Clicking on SIGN IN
+2024-04-17 18:15:01 DEBUG TestBase:68 - Clicking on Next
+2024-04-17 18:15:02 DEBUG TestBase:68 - Clicking on Sign in
+2024-04-17 18:15:08 DEBUG TestBase:68 - Clicking on 
+2024-04-17 18:15:10 DEBUG TestBase:68 - Clicking on 
+2024-04-17 18:15:11 DEBUG TestBase:68 - Clicking on 
+2024-04-17 18:15:13 DEBUG TestBase:68 - Clicking on 
+2024-04-17 18:15:13 DEBUG TestBase:68 - Clicking on 
+2024-04-17 18:15:14 DEBUG TestBase:68 - Clicking on 12:00 am
+2024-04-17 18:15:14 DEBUG TestBase:68 - Clicking on 
+2024-04-17 18:15:15 DEBUG TestBase:68 - Clicking on 
+2024-04-17 18:15:15 DEBUG TestBase:68 - Clicking on 07:30 pm
+2024-04-17 18:15:15 DEBUG TestBase:68 - Clicking on Save
+2024-04-17 18:15:22 INFO  TestBase:126 - URL launched
+2024-04-17 18:15:22 DEBUG TestBase:68 - Clicking on SIGN IN
+2024-04-17 18:15:24 DEBUG TestBase:68 - Clicking on Next
+2024-04-17 18:15:25 DEBUG TestBase:68 - Clicking on Sign in
+2024-04-17 18:15:31 DEBUG TestBase:68 - Clicking on 
+2024-04-17 18:15:33 DEBUG TestBase:68 - Clicking on 
+2024-04-17 18:15:33 DEBUG TestBase:68 - Clicking on Confirm
+2024-04-17 18:16:15 ERROR TestBase:72 - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[contains(text(),'Confirm')]' (tried for 30 second(s) with 500 milliseconds interval)
+2024-04-17 18:44:45 INFO  TestBase:126 - URL launched
+2024-04-17 18:44:46 DEBUG TestBase:68 - Clicking on SIGN IN
+2024-04-17 18:44:48 DEBUG TestBase:68 - Clicking on Next
+2024-04-17 18:44:49 DEBUG TestBase:68 - Clicking on Sign in
+2024-04-17 18:44:56 DEBUG TestBase:68 - Clicking on New Event
+2024-04-17 18:44:57 DEBUG TestBase:68 - Clicking on 
+2024-04-17 18:44:58 DEBUG TestBase:68 - Clicking on 
+2024-04-17 18:45:00 DEBUG TestBase:68 - Clicking on 12:00 am
+2024-04-17 18:45:01 DEBUG TestBase:68 - Clicking on 
+2024-04-17 18:45:02 DEBUG TestBase:68 - Clicking on 
+2024-04-17 18:45:03 DEBUG TestBase:68 - Clicking on 08:00 pm
+2024-04-17 18:45:05 DEBUG TestBase:68 - Clicking on Add conference
+2024-04-17 18:45:09 DEBUG TestBase:68 - Clicking on Save
+2024-04-17 18:45:09 DEBUG TestBase:68 - Clicking on Confirm
+2024-04-17 18:46:56 INFO  TestBase:126 - URL launched
+2024-04-17 18:46:57 DEBUG TestBase:68 - Clicking on SIGN IN
+2024-04-17 18:47:00 DEBUG TestBase:68 - Clicking on Next
+2024-04-17 18:47:01 DEBUG TestBase:68 - Clicking on Sign in
+2024-04-17 18:47:08 DEBUG TestBase:68 - Clicking on 
+2024-04-17 18:47:43 INFO  TestBase:126 - URL launched
+2024-04-17 18:47:44 DEBUG TestBase:68 - Clicking on SIGN IN
+2024-04-17 18:47:46 DEBUG TestBase:68 - Clicking on Next
+2024-04-17 18:47:48 DEBUG TestBase:68 - Clicking on Sign in
+2024-04-17 18:47:54 DEBUG TestBase:68 - Clicking on 

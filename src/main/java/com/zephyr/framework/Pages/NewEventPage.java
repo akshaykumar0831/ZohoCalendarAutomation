@@ -101,24 +101,10 @@ public class NewEventPage extends TestBase {
         TestUtils.clickElement(Event_StartDate);
         TestUtils.selectDate(Event_StartDate,1);
         TestUtils.clickElement(Event_StartTime);
-        /*for(WebElement element:Event_StartTime_All_TimeOptions)
-        {
-            if (element.getText().equalsIgnoreCase("06:00 pm"))
-            {
-                TestUtils.clickElement(element);
-            }
-        }*/
         TestUtils.clickElement(Event_StartTime_All_TimeOptions.get(0));
         TestUtils.clickElement(Event_EndDate);
         TestUtils.selectDate(Event_EndDate,1);
         TestUtils.clickElement(Event_endTime);
-        /*for(WebElement element:Event_StartTime_All_TimeOptions)
-        {
-            if (element.getText().equalsIgnoreCase("07:00 pm"))
-            {
-                TestUtils.clickElement(element);
-            }
-        }*/
         TestUtils.clickElement(Event_StartTime_All_TimeOptions.get(1));
 
         TestUtils.sendKeys(Invite_mail, prop.getProperty("mailId"));
@@ -182,25 +168,10 @@ public class NewEventPage extends TestBase {
         TestUtils.clickElement(Event_StartDate);
         TestUtils.selectDate(Event_StartDate,2);
         TestUtils.clickElement(Event_StartTime);
-        /*for(WebElement element:Event_StartTime_All_TimeOptions)
-        {
-            if (element.getText().equalsIgnoreCase("06:00 pm"))
-            {
-                TestUtils.clickElement(element);
-            }
-        }*/
         TestUtils.clickElement(Event_StartTime_All_TimeOptions.get(0));
         TestUtils.clickElement(Event_EndDate);
         TestUtils.selectDate(Event_EndDate,2);
         TestUtils.clickElement(Event_endTime);
-       /* for(WebElement element:Event_StartTime_All_TimeOptions)
-        {
-            if (element.getText().equalsIgnoreCase("07:00 pm"))
-            {
-                TestUtils.clickElement(element);
-                break;
-            }
-        }*/
         TestUtils.clickElement(Event_StartTime_All_TimeOptions.get(1));
         TestUtils.clickElement(save_button);
 
